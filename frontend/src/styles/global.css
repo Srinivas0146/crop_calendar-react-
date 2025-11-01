@@ -1,0 +1,18 @@
+:root{--fg:#111;--bg:#fff;--muted:#666;--brand:#0a66c2}
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;color:var(--fg);background:var(--bg)}
+a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}
+.container{max-width:1024px;margin:0 auto;padding:1rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}
+.card{border:1px solid #eee;border-radius:14px;padding:1rem;box-shadow:0 3px 14px rgba(0,0,0,.04)}
+.btn{display:inline-flex;align-items:center;gap:.5rem;border:1px solid #ddd;background:#f8f9fb;padding:.55rem .9rem;border-radius:10px;cursor:pointer}
+.btn:hover{background:#f1f3f6}
+.input,.select{width:100%;padding:.6rem .7rem;border:1px solid #ddd;border-radius:10px}
+.row{display:flex;gap:.75rem;flex-wrap:wrap}
+.justify-between{justify-content:space-between}
+.mt1{margin-top:1rem}.mt2{margin-top:1.5rem}.mt3{margin-top:2rem}
+.badge{display:inline-block;padding:.2rem .5rem;border-radius:999px;font-size:.8rem;border:1px solid #ddd}
+.badge.good{background:#e8f7ee;border-color:#bfe7cd}
+.badge.ok{background:#fff7e6;border-color:#ffe0a6}
+.badge.low{background:#ffe8e6;border-color:#ffc7bf}

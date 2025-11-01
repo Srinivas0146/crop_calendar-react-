@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite DB
+auth_analytics.db
+
+# Virtual environment
+/.venv
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Node
+/node_modules
+/package-lock.json
+/pnpm-lock.yaml
+/yarn.lock
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Vite / React build output
+/frontend/dist
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated
+.DS_Store
+.Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+.env.*
